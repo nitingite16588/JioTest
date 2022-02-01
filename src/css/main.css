@@ -1,0 +1,57 @@
+
+
+.toDo-center {
+    width: auto;
+    max-width: 460px;
+    margin: 4rem auto;
+}
+
+.list-detail{
+ display: flex;
+}
+
+.list-detail div{
+  flex-direction: row;
+}
+
+
+.list-detail div:nth-of-type(1) {flex-grow: 8;}
+.list-detail div:nth-of-type(2) {flex-grow: 1;}
+.list-detail div:nth-of-type(3) {flex-grow: 1;}
+
+.delete-icon{
+  width:20px;
+  cursor:pointer
+ 
+}
+
+#page-numbers {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px;
+}
+
+#page-numbers > li {
+  margin-right: 2.3em;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 32px;
+  background: #0882ff;
+}
+
+#page-numbers > li:focus {
+  background: #171717;
+}
+
+.todo-Title {
+  background-color: #0882ff;
+  color: #fff;
+  font-size: 25px;
+}
