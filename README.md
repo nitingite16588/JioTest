@@ -8,7 +8,7 @@ installation steps
 3. npm run start
 
 
-#Test Stack
+#Tech Stack
 
 1. React,
 2. webpack
