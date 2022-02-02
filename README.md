@@ -1,6 +1,6 @@
 # JioTest
 Todo app
-Demo -https://determined-shaw-d2e0e3.netlify.app/
+Demo - https://determined-shaw-d2e0e3.netlify.app
 
 installation steps
 
